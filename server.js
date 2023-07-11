@@ -25,7 +25,7 @@ app.get(`https://tvshows-4vri.onrender.com/detail`, (req, res) => {
       return data.json();
     })
     .then((post) => {
-      res.render("detail", {post});
+      res.render("https://tvshows-4vri.onrender.com/detail", {post});
     });
 
 });
