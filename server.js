@@ -18,7 +18,7 @@ app.get("/", (req, res) => {
   res.redirect("/detail");
 });
 
-app.get("/detail", (req, res) => {
+app.get("https://tvshows-4vri.onrender.com/detail", (req, res) => {
   const detailid = req.query.id;//req.query.id is for also getting the id link in a running server(backend)
   fetch("https://www.episodate.com/api/show-details?q=" + detailid)
     .then((data) => {
