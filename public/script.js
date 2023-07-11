@@ -82,7 +82,7 @@ function prev() {
           no;
         }
         document.getElementById("containerOne").innerHTML += `
-        <a href="http://localhost:9000/detail?id=${cards.id}">
+        <a href="https://tvshows-4vri.onrender.com/detail?id=${cards.id}">
         <div class="card">
         <img src="${cards.image_thumbnail_path}" alt="image of ${cards.name}">
         <div class="cardContents">
